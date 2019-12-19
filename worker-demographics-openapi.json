@@ -1,0 +1,82 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "2.0.0",
+        "title": "Worker Demographics",
+        "description": "The Worker Demographics APIs return a list of demographics for each worker in an organization, demographics for a specific worker, and API metadata.",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "test-api.adp.com"
+    ],
+    "paths": {
+        "\/hr\/v2\/worker-demographics": {
+            "get": {
+                "summary": "Worker Demographics",
+                "description": "Request the list of all available worker demographics that the requester is authorized to view.",
+                "operationId": "Bacd44427e964048B08c53bfc68afbcb",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available worker demographics that the requester is authorized to view."
+                    }
+                }
+            }
+        },
+        "\/hr\/v2\/worker-demographics\/{aoid}": {
+            "get": {
+                "summary": "Worker Demographic",
+                "description": "Returns a worker demographic",
+                "operationId": "F8c359949a9a4d738707E6dec08c7114",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "aoid",
+                        "in": "path",
+                        "description": "Associate OID"
+                    },
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available worker demographics that the requester is authorized to view."
+                    }
+                }
+            }
+        },
+        "\/hr\/v2\/worker-demographics\/meta": {
+            "get": {
+                "summary": "Worker Demographic Meta",
+                "description": "Returns a meta",
+                "operationId": "A8916e300b894dc7B9978d9fb20a2eb3",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available worker demographics that the requester is authorized to view."
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
