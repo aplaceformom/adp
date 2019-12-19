@@ -1,0 +1,193 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "2.0.0",
+        "title": "Workers - Lifecycle Management",
+        "description": "The worker.hire event indicates the creation of a work agreement between a person and an employer for the first time EVER. Worker.Hire always results in a primary work assignment. Worker.hire may result in a worker status of either 'Active' or 'Pending' depending on whether or not the Worker.Start event is supported by the system of record.",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "test-api.adp.com"
+    ],
+    "paths": {
+        "\/events\/hr\/v1\/worker.hire": {
+            "post": {
+                "summary": "Hire Worker",
+                "description": "A worker is hired.",
+                "operationId": "1acc86317b9245979b4eA1d9c48eb118",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "A worker is hired."
+                    }
+                }
+            }
+        },
+        "\/events\/hr\/v1\/worker.hire\/meta": {
+            "get": {
+                "summary": "Hire Worker Meta",
+                "description": "Returns an event metadata",
+                "operationId": "88bd47af076e4d808e16553ff53a2951",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "A worker is hired."
+                    }
+                }
+            }
+        },
+        "\/events\/hr\/v1\/worker.on-leave": {
+            "post": {
+                "summary": "Worker On Leave",
+                "description": "Worker on leave.  Worker's status changed to on leave effective on such and such a date",
+                "operationId": "7651aac086b34bd6B7c0C54bb2bca643",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "A worker is hired."
+                    }
+                }
+            }
+        },
+        "\/events\/hr\/v1\/worker.on-leave\/meta": {
+            "get": {
+                "summary": "Worker On Leave Meta",
+                "description": "Returns an event metadata",
+                "operationId": "66d7835bAa9b4b048ff8548fd0e6aa2a",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "A worker is hired."
+                    }
+                }
+            }
+        },
+        "\/events\/hr\/v1\/worker.rehire": {
+            "post": {
+                "summary": "Rehire Worker",
+                "description": "A worker is rehired.",
+                "operationId": "F3355703F65447eeA98aF67b74c4b364",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "A worker is hired."
+                    }
+                }
+            }
+        },
+        "\/events\/hr\/v1\/worker.rehire\/meta": {
+            "get": {
+                "summary": "Rehire Worker Meta",
+                "description": "Returns an event metadata",
+                "operationId": "Df6fbf20B3964db9B76cCd7bbd2bef8b",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "A worker is hired."
+                    }
+                }
+            }
+        },
+        "\/events\/hr\/v1\/worker.terminate": {
+            "post": {
+                "summary": "Terminate Worker",
+                "description": "A worker is terminated involuntarily.",
+                "operationId": "5d49bacc5e3b4e05B95a0ed38dd67cb5",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "A worker is hired."
+                    }
+                }
+            }
+        },
+        "\/events\/hr\/v1\/worker.terminate\/meta": {
+            "get": {
+                "summary": "Terminate Worker Meta",
+                "description": "Returns an event metadata",
+                "operationId": "C14ebd0790bd4e8d893f6b76133a5ecb",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "A worker is hired."
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "https:\/\/s3.amazonaws.com\/es-schema-dev-portal-iat\/schema\/events_hr.worker.rehire_schema_v01_00_rev017.json": {
+                "type": "object"
+            },
+            "https:\/\/s3.amazonaws.com\/es-schema-dev-portal-iat\/schema\/events_hr.worker.hire_schema_v01_00_rev017.json": {
+                "type": "object"
+            },
+            "https:\/\/s3.amazonaws.com\/es-schema-dev-portal-iat\/schema\/events_hr.worker.start_schema_v01_00_rev003.json": {
+                "type": "object"
+            },
+            "https:\/\/s3.amazonaws.com\/es-schema-dev-portal-iat\/schema\/events_hr.worker.onLeave_schema_v01_00_rev003.json": {
+                "type": "object"
+            },
+            "https:\/\/s3.amazonaws.com\/es-schema-dev-portal-iat\/schema\/events_hr.worker.terminate_schema_v01_00_rev006.json": {
+                "type": "object"
+            }
+        }
+    }
+}
