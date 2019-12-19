@@ -1,0 +1,237 @@
+{
+    "id": "4d2a3d8056250d5e495b590f1613bfff",
+    "name": "Clock Entries",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "7fb2f754759d5856018793bcd845292e",
+            "name": "Clock Entries",
+            "url": "test-api.adp.com\/time\/v2\/workers\/{aoid}\/clock-entries",
+            "description": "Returns the list of clock entries for a worker",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "aoid",
+                    "description": "Associate OID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4d2a3d8056250d5e495b590f1613bfff",
+            "rawModeData": ""
+        },
+        {
+            "id": "b754de105b7a1bef95483c7f76227b8d",
+            "name": "Clock Punch",
+            "url": "test-api.adp.com\/events\/time\/v1\/clock.punch",
+            "description": "Clock punch event instance",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4d2a3d8056250d5e495b590f1613bfff",
+            "rawModeData": ""
+        },
+        {
+            "id": "ef922fc2714f4a67a506531f2fc92a1b",
+            "name": "Clock Punch Meta",
+            "url": "test-api.adp.com\/events\/time\/v1\/clock.punch\/meta",
+            "description": "Retrieve event metadata",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4d2a3d8056250d5e495b590f1613bfff",
+            "rawModeData": ""
+        },
+        {
+            "id": "fcfc4c0bfa6f2ed53a0e9a981a18462b",
+            "name": "Clock Punch Offline",
+            "url": "test-api.adp.com\/events\/time\/v1\/clock-offline.punch",
+            "description": "Clock punch event instance",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4d2a3d8056250d5e495b590f1613bfff",
+            "rawModeData": ""
+        },
+        {
+            "id": "2f924edbda584f7a9eacefc0196bff0c",
+            "name": "Clock Punch Offline Meta",
+            "url": "test-api.adp.com\/events\/time\/v1\/clock-offline.punch\/meta",
+            "description": "Retrieve event metadata",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4d2a3d8056250d5e495b590f1613bfff",
+            "rawModeData": ""
+        },
+        {
+            "id": "6bef8511b440ffbd46173825a5423d6b",
+            "name": "Crew Clock Punch",
+            "url": "test-api.adp.com\/events\/time\/v1\/crew-clock.punch",
+            "description": "Crew clock punch event instance",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4d2a3d8056250d5e495b590f1613bfff",
+            "rawModeData": ""
+        },
+        {
+            "id": "565eedd33cc60ba3ba29b7d614b5b1ae",
+            "name": "Crew Clock Punch Meta",
+            "url": "test-api.adp.com\/events\/time\/v1\/crew-clock.punch\/meta",
+            "description": "Retrieve event metadata",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4d2a3d8056250d5e495b590f1613bfff",
+            "rawModeData": ""
+        }
+    ]
+}
