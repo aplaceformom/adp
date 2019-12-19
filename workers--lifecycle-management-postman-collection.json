@@ -1,0 +1,261 @@
+{
+    "id": "6978edaa0f3240123ff4daac0e4ed1a0",
+    "name": "Workers - Lifecycle Management",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "eefaf75b72cf63ff9ed8c05e751119e7",
+            "name": "Hire Worker",
+            "url": "test-api.adp.com\/events\/hr\/v1\/worker.hire",
+            "description": "A worker is hired.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "6978edaa0f3240123ff4daac0e4ed1a0",
+            "rawModeData": ""
+        },
+        {
+            "id": "2b7d2fda3f7008848043f7e03066e948",
+            "name": "Hire Worker Meta",
+            "url": "test-api.adp.com\/events\/hr\/v1\/worker.hire\/meta",
+            "description": "Returns an event metadata",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "6978edaa0f3240123ff4daac0e4ed1a0",
+            "rawModeData": ""
+        },
+        {
+            "id": "7edaef6a384fd5f5394fa685808e4718",
+            "name": "Worker On Leave",
+            "url": "test-api.adp.com\/events\/hr\/v1\/worker.on-leave",
+            "description": "Worker on leave.  Worker's status changed to on leave effective on such and such a date",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "6978edaa0f3240123ff4daac0e4ed1a0",
+            "rawModeData": ""
+        },
+        {
+            "id": "fec763cd38d92fb93a5db569f8a3bffd",
+            "name": "Worker On Leave Meta",
+            "url": "test-api.adp.com\/events\/hr\/v1\/worker.on-leave\/meta",
+            "description": "Returns an event metadata",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "6978edaa0f3240123ff4daac0e4ed1a0",
+            "rawModeData": ""
+        },
+        {
+            "id": "06854771bd710fcd7bd3d76b359e0c51",
+            "name": "Rehire Worker",
+            "url": "test-api.adp.com\/events\/hr\/v1\/worker.rehire",
+            "description": "A worker is rehired.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "6978edaa0f3240123ff4daac0e4ed1a0",
+            "rawModeData": ""
+        },
+        {
+            "id": "ee0b026c8597e834a7bba68c69a9b594",
+            "name": "Rehire Worker Meta",
+            "url": "test-api.adp.com\/events\/hr\/v1\/worker.rehire\/meta",
+            "description": "Returns an event metadata",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "6978edaa0f3240123ff4daac0e4ed1a0",
+            "rawModeData": ""
+        },
+        {
+            "id": "301ef95268739889e11182dfdabe7c2c",
+            "name": "Terminate Worker",
+            "url": "test-api.adp.com\/events\/hr\/v1\/worker.terminate",
+            "description": "A worker is terminated involuntarily.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "6978edaa0f3240123ff4daac0e4ed1a0",
+            "rawModeData": ""
+        },
+        {
+            "id": "7802598364935512af0f85252934daf1",
+            "name": "Terminate Worker Meta",
+            "url": "test-api.adp.com\/events\/hr\/v1\/worker.terminate\/meta",
+            "description": "Returns an event metadata",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "6978edaa0f3240123ff4daac0e4ed1a0",
+            "rawModeData": ""
+        }
+    ]
+}
