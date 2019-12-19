@@ -1,0 +1,237 @@
+{
+    "id": "2851778471aaed1187df51e3c8532d7b",
+    "name": "Worker Payroll Instructions",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "b5b41eafe122f08311b28af4921532d0",
+            "name": "Worker Payroll Instructions",
+            "url": "test-api.adp.com\/payroll\/v1\/workers\/{aoid}\/payroll-instructions",
+            "description": "Request the list of all available payroll instructions that the requester is authorized to view",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "aoid",
+                    "description": "Associate OID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "2851778471aaed1187df51e3c8532d7b",
+            "rawModeData": ""
+        },
+        {
+            "id": "135b410bdf76f3ba7888a42cba01c120",
+            "name": "Start Worker General Deduction Instruction",
+            "url": "test-api.adp.com\/events\/payroll\/v2\/worker-general-deduction-instruction.start",
+            "description": "Start worker general deduction instruction information",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "2851778471aaed1187df51e3c8532d7b",
+            "rawModeData": ""
+        },
+        {
+            "id": "0fbbb86ef653814972c19c6ba26e1448",
+            "name": "Start Worker General Deduction Instruction Meta",
+            "url": "test-api.adp.com\/events\/payroll\/v2\/worker-general-deduction-instruction.start\/meta",
+            "description": "Returns an event metadata",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "2851778471aaed1187df51e3c8532d7b",
+            "rawModeData": ""
+        },
+        {
+            "id": "d8e99eb8e2b8f5d4010586904258b2d6",
+            "name": "Change Worker General Deduction Instruction",
+            "url": "test-api.adp.com\/events\/payroll\/v2\/worker-general-deduction-instruction.change",
+            "description": "Change worker general deduction instruction information",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "2851778471aaed1187df51e3c8532d7b",
+            "rawModeData": ""
+        },
+        {
+            "id": "3854a7a4fc6e0c826b72daaf0fe40c0d",
+            "name": "Change Worker General Deduction Instruction Meta",
+            "url": "test-api.adp.com\/events\/payroll\/v2\/worker-general-deduction-instruction.change\/meta",
+            "description": "Returns an event metadata",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "2851778471aaed1187df51e3c8532d7b",
+            "rawModeData": ""
+        },
+        {
+            "id": "a3dab1342922ea3f31ab00839e29c12e",
+            "name": "Stop Worker General Deduction Instruction",
+            "url": "test-api.adp.com\/events\/payroll\/v2\/worker-general-deduction-instruction.stop",
+            "description": "Stop worker general deduction instruction information",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "2851778471aaed1187df51e3c8532d7b",
+            "rawModeData": ""
+        },
+        {
+            "id": "96d0ad073311fbec189e426cc64569f6",
+            "name": "Stop Worker General Deduction Instruction Meta",
+            "url": "test-api.adp.com\/events\/payroll\/v2\/worker-general-deduction-instruction.stop\/meta",
+            "description": "Returns an event metadata",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "2851778471aaed1187df51e3c8532d7b",
+            "rawModeData": ""
+        }
+    ]
+}
