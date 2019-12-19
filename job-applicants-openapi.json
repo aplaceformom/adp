@@ -1,0 +1,457 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "2.0.0",
+        "title": "Job Applicants",
+        "description": "The Job Applicants v2 APIs are used to retrieve a job applicant or a list of applicants, or to submit a job applicant. API metadata is also available.",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "test-api.adp.com"
+    ],
+    "paths": {
+        "\/staffing\/v2\/job-applicants": {
+            "get": {
+                "summary": "Job Applicants",
+                "description": "Request the list of all available job applicants that the requester is authorized to view",
+                "operationId": "E2d258f0635148a291a33708d9709ee5",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available job applicants that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/staffing\/v2\/job-applicants\/{applicant-id}": {
+            "get": {
+                "summary": "Job Applicant",
+                "description": "Returns a job applicant",
+                "operationId": "0618beafD6ac40c2B0734f5e8cd6da09",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "applicant-id",
+                        "in": "path",
+                        "description": "Job Applicant ID"
+                    },
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available job applicants that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/staffing\/v2\/job-applicants\/{applicant-id}\/pay-distributions": {
+            "get": {
+                "summary": "Job Applicant Pay Distributions",
+                "description": "Returns a job applicant pay distribution details",
+                "operationId": "D9384ec710c64fd38f7a81cfe36fef1d",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "applicant-id",
+                        "in": "path",
+                        "description": "Job Applicant ID"
+                    },
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available job applicants that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/staffing\/v2\/job-applicants\/{applicant-id}\/pay-distributions\/{pay-distribution-id}": {
+            "get": {
+                "summary": "Job Applicant Pay Distribution Details",
+                "description": "Returns a job applicant pay distribution details",
+                "operationId": "1262310a04a844d9835b0a823ba0cf98",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "applicant-id",
+                        "in": "path",
+                        "description": "Job Applicant ID"
+                    },
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "pay-distribution-id",
+                        "in": "path",
+                        "description": "Pay Distribution ID"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available job applicants that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/staffing\/v2\/job-applicants\/{applicant-id}\/us-tax-profiles": {
+            "get": {
+                "summary": "Job Applicant Tax Profiles",
+                "description": "Returns a job applicant US  tax profiles",
+                "operationId": "Cd9781282d9f460595beC8c1d0d91e77",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "applicant-id",
+                        "in": "path",
+                        "description": "Job Applicant ID"
+                    },
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available job applicants that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/staffing\/v2\/job-applicants\/{applicant-id}\/us-tax-profiles\/{us-tax-profile-id}": {
+            "get": {
+                "summary": "Job Applicant Tax Profile Details",
+                "description": "Returns a job applicant US  tax profiles",
+                "operationId": "6ffbb4ed169349ef811fF6f937d571a7",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "applicant-id",
+                        "in": "path",
+                        "description": "Job Applicant ID"
+                    },
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "us-tax-profile-id",
+                        "in": "path",
+                        "description": "US Tax Profile ID"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available job applicants that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/staffing\/v2\/job-applicants\/{applicant-id}\/personal-contacts": {
+            "get": {
+                "summary": "Job Applicant Personal Contacts",
+                "description": "Returns a job applicant's personal contacts",
+                "operationId": "E817a4420c7a42e08bd07c5dfa5e106a",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "applicant-id",
+                        "in": "path",
+                        "description": "Job Applicant ID"
+                    },
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available job applicants that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/staffing\/v2\/job-applicants\/{applicant-id}\/personal-contacts\/{personal-contact-id}": {
+            "get": {
+                "summary": "Job Applicant Personal Contact Details",
+                "description": "Returns a job applicant's personal contacts",
+                "operationId": "25713793Ca2346e29b70C152061c79e7",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "applicant-id",
+                        "in": "path",
+                        "description": "Job Applicant ID"
+                    },
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "personal-contact-id",
+                        "in": "path",
+                        "description": "Personal Contact ID"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available job applicants that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/staffing\/v2\/job-applicants\/{applicant-id}\/applicant-ksaocs": {
+            "get": {
+                "summary": "Job Applicant KSAOCs",
+                "description": "Returns a job applicant's KSAOCs",
+                "operationId": "8aa710d678ed4c73874f06d244e5ca1d",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "applicant-id",
+                        "in": "path",
+                        "description": "Job Applicant ID"
+                    },
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available job applicants that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/staffing\/v2\/job-applicants\/{applicant-id}\/documents": {
+            "get": {
+                "summary": "Job Applicant Documents",
+                "description": "Returns applicant recruiting documents",
+                "operationId": "44ec5ad7200a45de80e52d7ba41afd39",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "applicant-id",
+                        "in": "path",
+                        "description": "Job Applicant ID"
+                    },
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available job applicants that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/staffing\/v2\/job-applicants\/{applicant-id}\/documents\/{document-id}": {
+            "get": {
+                "summary": "Job Applicant Document",
+                "description": "Returns applicant recruiting document",
+                "operationId": "Adb2c4ce4a944d64AcaeF61697e9a517",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "applicant-id",
+                        "in": "path",
+                        "description": "Job Applicant ID"
+                    },
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "document-id",
+                        "in": "path",
+                        "description": "Document ID"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available job applicants that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/staffing\/v2\/job-applicants\/meta": {
+            "get": {
+                "summary": "Job Applicant Meta",
+                "description": "Returns a meta",
+                "operationId": "549dc69cB1054331A7281a510a62e67b",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available job applicants that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/events\/staffing\/v1\/job-applicant-profile.add": {
+            "post": {
+                "summary": "Add Applicant Profile",
+                "description": "Applicant created a new profile",
+                "operationId": "A37d256f13e24fedB374524a44ee0b7c",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available job applicants that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/events\/staffing\/v1\/job-applicant-profile.add\/meta": {
+            "get": {
+                "summary": "Add Applicant Profile Meta",
+                "description": "Returns an event metadata",
+                "operationId": "414e2eddA68040db8a386c482d72c419",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available job applicants that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/events\/staffing\/v1\/job-applicant-profile.change": {
+            "post": {
+                "summary": "Change Applicant Profile",
+                "description": "Applicant changed an existing profile",
+                "operationId": "C21fcc78D2b4422dBe162d9b6e6841d7",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available job applicants that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/events\/staffing\/v1\/job-applicant-profile.change\/meta": {
+            "get": {
+                "summary": "Change Applicant Profile Meta",
+                "description": "Returns an event metadata",
+                "operationId": "06561f7e0b70419eAf41E61df408cdd1",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available job applicants that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/events\/staffing\/v1\/job-applicant-profile.remove": {
+            "post": {
+                "summary": "Remove Applicant Profile",
+                "description": "Applicant removed an existing profile",
+                "operationId": "Ff2dbd3d5ea5419c82dfE19c82a0d4ca",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available job applicants that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/events\/staffing\/v1\/job-applicant-profile.remove\/meta": {
+            "get": {
+                "summary": "Remove Applicant Profile Meta",
+                "description": "Returns an event metadata",
+                "operationId": "6b569d5806e6451eBa6e4629186ae51a",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available job applicants that the requester is authorized to view"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "https:\/\/s3.amazonaws.com\/es-schema-dev-portal-iat\/schema\/events_staffing.jobApplicant.profile.change_schema_v01_00_rev002.json": {
+                "type": "object"
+            },
+            "https:\/\/s3.amazonaws.com\/es-schema-dev-portal-iat\/schema\/events_staffing.jobApplicant.profile.remove_schema_v01_00_rev002.json": {
+                "type": "object"
+            },
+            "https:\/\/s3.amazonaws.com\/es-schema-dev-portal-iat\/schema\/events_staffing.jobApplicant.profile.add_schema_v01_00_rev002.json": {
+                "type": "object"
+            }
+        }
+    }
+}
