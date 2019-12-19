@@ -1,0 +1,310 @@
+{
+    "name": "ADP",
+    "description": "ADP offers Payroll Services, HR Software and Tax and Compliance services for businesses of all sizes. ADP A More Human Resource.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28114-adp.jpg",
+    "tags": [
+        "api provider",
+        "have api",
+        "have openapi",
+        "hr",
+        "human resources",
+        "insurance",
+        "payroll",
+        "profile",
+        "services",
+        "taxes"
+    ],
+    "created": "2019-12-18",
+    "modified": "2019-12-18",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/adp\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Workers",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28114-adp.jpg",
+            "humanURL": "http:\/\/www.adp.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/workers.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/workers-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Time Entry",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28114-adp.jpg",
+            "humanURL": "http:\/\/www.adp.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/time-entry.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/time-entry-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Payroll Outputs",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28114-adp.jpg",
+            "humanURL": "http:\/\/www.adp.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/payroll-outputs.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/payroll-outputs-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Workers - Lifecycle Management",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28114-adp.jpg",
+            "humanURL": "http:\/\/www.adp.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/workers--lifecycle-management.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/workers--lifecycle-management-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Worker Payroll Instructions",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28114-adp.jpg",
+            "humanURL": "http:\/\/www.adp.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/worker-payroll-instructions.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/worker-payroll-instructions-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Clock Entries",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28114-adp.jpg",
+            "humanURL": "http:\/\/www.adp.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/clock-entries.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/clock-entries-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Worker Demographics",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28114-adp.jpg",
+            "humanURL": "http:\/\/www.adp.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/worker-demographics.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/worker-demographics-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Event Notification Messages",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28114-adp.jpg",
+            "humanURL": "http:\/\/www.adp.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/event-notification-messages.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/event-notification-messages-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Job Applicants",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28114-adp.jpg",
+            "humanURL": "http:\/\/www.adp.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/job-applicants.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/job-applicants-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "ADP",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28114-adp.jpg",
+            "humanURL": "http:\/\/www.adp.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/adp.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/adp-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Website",
+            "url": "http:\/\/www.adp.com"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/adp"
+        },
+        {
+            "type": "Email",
+            "url": "Meg.Levine@adp.com"
+        },
+        {
+            "type": "Email",
+            "url": "michael.schneider@adp.com"
+        },
+        {
+            "type": "Email",
+            "url": "steven.r.cross@adp.com"
+        },
+        {
+            "type": "Email",
+            "url": "ADPAccountant@adp.com"
+        },
+        {
+            "type": "Email",
+            "url": "adppartnerconnect@adp.com"
+        },
+        {
+            "type": "Email",
+            "url": "agencynoticesetup@adp.com"
+        },
+        {
+            "type": "Email",
+            "url": "adp.ethics.helpline@adp.com"
+        },
+        {
+            "type": "Email",
+            "url": "adp.audit.committee@adp.com"
+        },
+        {
+            "type": "Email",
+            "url": "supplier.diversity@adp.com"
+        },
+        {
+            "type": "Facebook",
+            "url": "https:\/\/www.facebook.com\/AutomaticDataProcessing\/"
+        },
+        {
+            "type": "FAQ",
+            "url": "https:\/\/developers.adp.com\/articles\/faq\/all\/faq"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/adplabs"
+        },
+        {
+            "type": "Linkedin",
+            "url": "https:\/\/www.linkedin.com\/company\/adp"
+        },
+        {
+            "type": "Login",
+            "url": "https:\/\/www.adp.com\/logins.aspx"
+        },
+        {
+            "type": "Partners",
+            "url": "https:\/\/www.adp.com\/who-we-serve\/by-partner.aspx"
+        },
+        {
+            "type": "Privacy",
+            "url": "https:\/\/www.adp.com\/privacy.aspx"
+        },
+        {
+            "type": "Security",
+            "url": "https:\/\/www.adp.com\/about-adp\/data-security.aspx"
+        },
+        {
+            "type": "Support",
+            "url": "https:\/\/www.adp.com\/contact-us\/customer-service.aspx"
+        },
+        {
+            "type": "Terms of Service",
+            "url": "https:\/\/www.adp.com\/legal.aspx"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/ADP"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/developers.adp.com"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/adp.com"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/developers.adp.com"
+        },
+        {
+            "type": "Youtube",
+            "url": "https:\/\/www.youtube.com\/user\/adp"
+        }
+    ]
+}
