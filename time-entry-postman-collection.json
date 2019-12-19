@@ -1,0 +1,165 @@
+{
+    "id": "1624626662d759ec6f4f14bc6a8d9e2a",
+    "name": "Time Entry",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "53294312bc5b85d59cd88acbb7b785e7",
+            "name": "Time Entry Configuration",
+            "url": "test-api.adp.com\/time\/v1\/workers\/{aoid}\/time-entry-details",
+            "description": "Request a time entry configuration",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "fields",
+                    "description": "Requests returning only the timeConfiguration object. fields=timeConfiguration",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "aoid",
+                    "description": "Associate ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1624626662d759ec6f4f14bc6a8d9e2a",
+            "rawModeData": ""
+        },
+        {
+            "id": "b55f01534eb6f0054ea07f2aa523a11a",
+            "name": "Timesheet Review",
+            "url": "test-api.adp.com\/time\/v1\/timeSheets\/review",
+            "description": "Approve 1 to many timesheets",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1624626662d759ec6f4f14bc6a8d9e2a",
+            "rawModeData": ""
+        },
+        {
+            "id": "89b2f82478b43efc125e907bc6bfe15d",
+            "name": "Time Entry Read",
+            "url": "test-api.adp.com\/time\/v1\/workers\/{aoid}\/time-entries\/{time-entry-id}",
+            "description": "Time Entry Read",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "aoid",
+                    "description": "Associate ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "time-entry-id",
+                    "description": "Time Entry ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1624626662d759ec6f4f14bc6a8d9e2a",
+            "rawModeData": ""
+        },
+        {
+            "id": "733316a4a49196a651d764b78a4c3a35",
+            "name": "Time Entry - Resolve Exception",
+            "url": "test-api.adp.com\/time\/v1\/timeSheets\/resolveEntryExceptions",
+            "description": "Resolve 1 to many exceptions",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1624626662d759ec6f4f14bc6a8d9e2a",
+            "rawModeData": ""
+        }
+    ]
+}
