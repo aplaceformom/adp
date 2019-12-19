@@ -1,0 +1,62 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Event Notification Messages",
+        "description": "The Event Notification APIs can be used to obtain a list of all event notification messages that the requestor is authorized to view, or to delete an event notification message after it has been received and processed by the consumer.",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "test-api.adp.com"
+    ],
+    "paths": {
+        "\/core\/v1\/event-notification-messages": {
+            "get": {
+                "summary": "Event Notification Messages",
+                "description": "Request the list of all event notification messages that the request is authorized to view",
+                "operationId": "5e35461832734866A4a044e9cc4dd571",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all event notification messages that the request is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/core\/v1\/event-notification-messages\/{adp-msg-msgid}": {
+            "delete": {
+                "summary": "Event Notification Message",
+                "description": "Delete the event notification message once the consumer has processed it successfully. The DELETE Acknowledges successful receipt and processing of the request.",
+                "operationId": "85c0d3d222bd412586e83b39f64610b5",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "adp-msg-msgid",
+                        "in": "path",
+                        "description": "adp-msg-msgid' is passed in the header with the response from the GET request."
+                    },
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all event notification messages that the request is authorized to view"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
