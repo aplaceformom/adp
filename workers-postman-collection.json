@@ -1,0 +1,307 @@
+{
+    "id": "b72d5eeab02881a8b10bacab1f49d243",
+    "name": "Workers",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "79e3517bc0c87afe1cc1fc6abdd6e64a",
+            "name": "Workers",
+            "url": "test-api.adp.com\/hr\/v2\/workers",
+            "description": "Request the list of all available workers that the requester is authorized to view",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b72d5eeab02881a8b10bacab1f49d243",
+            "rawModeData": ""
+        },
+        {
+            "id": "56caea673a952e8bc675f518fda3757b",
+            "name": "Worker",
+            "url": "test-api.adp.com\/hr\/v2\/workers\/{aoid}",
+            "description": "Returns a worker",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "aoid",
+                    "description": "Associate OID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b72d5eeab02881a8b10bacab1f49d243",
+            "rawModeData": ""
+        },
+        {
+            "id": "e4ce440805643697147e41a42fba2c25",
+            "name": "Worker Meta",
+            "url": "test-api.adp.com\/hr\/v2\/workers\/meta",
+            "description": "Returns a meta",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b72d5eeab02881a8b10bacab1f49d243",
+            "rawModeData": ""
+        },
+        {
+            "id": "7f371c27ebe0bbf0604dfa139e867e37",
+            "name": "Specific Worker Meta",
+            "url": "test-api.adp.com\/hr\/v2\/workers\/{aoid}\/meta",
+            "description": "Returns a worker specific meta",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "aoid",
+                    "description": "Associate OID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b72d5eeab02881a8b10bacab1f49d243",
+            "rawModeData": ""
+        },
+        {
+            "id": "c6a6b6b2e3a11f34a2f8c951c6ba3824",
+            "name": "Worker Data Image",
+            "url": "test-api.adp.com\/hr\/v2\/workers\/{aoid}\/worker-data-image",
+            "description": "Returns a worker data image",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "aoid",
+                    "description": "Associate OID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b72d5eeab02881a8b10bacab1f49d243",
+            "rawModeData": ""
+        },
+        {
+            "id": "1444660cf838609a88659fcfc3312dd0",
+            "name": "Worker Photo",
+            "url": "test-api.adp.com\/static-content\/{sor-id}\/hr\/associates\/{aoid}\/photos\/{photo-id}",
+            "description": "Request a photo",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "sor-id",
+                    "description": "System of Record ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "aoid",
+                    "description": "Associate OID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "photo-id",
+                    "description": "Associate Photo ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ADP-Acting-SessionID",
+                    "description": "ADP Acting Session ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b72d5eeab02881a8b10bacab1f49d243",
+            "rawModeData": ""
+        },
+        {
+            "id": "ba8b803082cd3eda2d9bd708becbc268",
+            "name": "Worker Photo (Legacy)",
+            "url": "test-api.adp.com\/staticContent\/{sor-id}\/hr\/associates\/{aoid}\/photos\/{photo-id}",
+            "description": "Request a photo",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "sor-id",
+                    "description": "System of Record ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "aoid",
+                    "description": "Associate OID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "photo-id",
+                    "description": "Associate Photo ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ADP-Acting-SessionID",
+                    "description": "ADP Acting Session ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b72d5eeab02881a8b10bacab1f49d243",
+            "rawModeData": ""
+        }
+    ]
+}
