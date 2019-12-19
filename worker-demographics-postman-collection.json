@@ -1,0 +1,113 @@
+{
+    "id": "7b582b8bc2016dd27b0c1635fd08a8d5",
+    "name": "Worker Demographics",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "8a0df51df8b92ead9f8d9b48a5a580b9",
+            "name": "Worker Demographics",
+            "url": "test-api.adp.com\/hr\/v2\/worker-demographics",
+            "description": "Request the list of all available worker demographics that the requester is authorized to view.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "7b582b8bc2016dd27b0c1635fd08a8d5",
+            "rawModeData": ""
+        },
+        {
+            "id": "ecb905c241778fb8335064b7425b8406",
+            "name": "Worker Demographic",
+            "url": "test-api.adp.com\/hr\/v2\/worker-demographics\/{aoid}",
+            "description": "Returns a worker demographic",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "aoid",
+                    "description": "Associate OID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "7b582b8bc2016dd27b0c1635fd08a8d5",
+            "rawModeData": ""
+        },
+        {
+            "id": "c3808774eae7b364e90e8698ed1ced92",
+            "name": "Worker Demographic Meta",
+            "url": "test-api.adp.com\/hr\/v2\/worker-demographics\/meta",
+            "description": "Returns a meta",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "7b582b8bc2016dd27b0c1635fd08a8d5",
+            "rawModeData": ""
+        }
+    ]
+}
