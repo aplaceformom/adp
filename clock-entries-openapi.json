@@ -1,0 +1,166 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "2.0.0",
+        "title": "Clock Entries",
+        "description": "The list of clock entries for a worker",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "test-api.adp.com"
+    ],
+    "paths": {
+        "\/time\/v2\/workers\/{aoid}\/clock-entries": {
+            "get": {
+                "summary": "Clock Entries",
+                "description": "Returns the list of clock entries for a worker",
+                "operationId": "F2dcd13b9c7b47aaBe12E815f6421fbc",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "aoid",
+                        "in": "path",
+                        "description": "Associate OID"
+                    },
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Returns the list of clock entries for a worker"
+                    }
+                }
+            }
+        },
+        "\/events\/time\/v1\/clock.punch": {
+            "post": {
+                "summary": "Clock Punch",
+                "description": "Clock punch event instance",
+                "operationId": "Ed5259f0550046999f46F9eceee89e8b",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Returns the list of clock entries for a worker"
+                    }
+                }
+            }
+        },
+        "\/events\/time\/v1\/clock.punch\/meta": {
+            "get": {
+                "summary": "Clock Punch Meta",
+                "description": "Retrieve event metadata",
+                "operationId": "620be0827e6f4b5aAe8331ff60c223a8",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Returns the list of clock entries for a worker"
+                    }
+                }
+            }
+        },
+        "\/events\/time\/v1\/clock-offline.punch": {
+            "post": {
+                "summary": "Clock Punch Offline",
+                "description": "Clock punch event instance",
+                "operationId": "9fb5b4c4191741fb9519Baf56f93187f",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Returns the list of clock entries for a worker"
+                    }
+                }
+            }
+        },
+        "\/events\/time\/v1\/clock-offline.punch\/meta": {
+            "get": {
+                "summary": "Clock Punch Offline Meta",
+                "description": "Retrieve event metadata",
+                "operationId": "6a8cad46479249bfA1b2C0e28191bf49",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Returns the list of clock entries for a worker"
+                    }
+                }
+            }
+        },
+        "\/events\/time\/v1\/crew-clock.punch": {
+            "post": {
+                "summary": "Crew Clock Punch",
+                "description": "Crew clock punch event instance",
+                "operationId": "19459416Fec74763B5703608cfa3cf4f",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Returns the list of clock entries for a worker"
+                    }
+                }
+            }
+        },
+        "\/events\/time\/v1\/crew-clock.punch\/meta": {
+            "get": {
+                "summary": "Crew Clock Punch Meta",
+                "description": "Retrieve event metadata",
+                "operationId": "A601cfdf3c1646a288beDfcb6a3d3009",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Returns the list of clock entries for a worker"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "https:\/\/s3.amazonaws.com\/es-schema-dev-portal-iat\/schema\/events_time.clock.punch_schema_v01_00_rev005.json": {
+                "type": "object"
+            }
+        }
+    }
+}
