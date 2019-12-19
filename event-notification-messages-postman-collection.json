@@ -1,0 +1,82 @@
+{
+    "id": "6add3f8a37ca32f8fdc2afdb417a5e42",
+    "name": "Event Notification Messages",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "f33afd39be676dc85eb43166c63368fd",
+            "name": "Event Notification Messages",
+            "url": "test-api.adp.com\/core\/v1\/event-notification-messages",
+            "description": "Request the list of all event notification messages that the request is authorized to view",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "6add3f8a37ca32f8fdc2afdb417a5e42",
+            "rawModeData": ""
+        },
+        {
+            "id": "d14ad7a2917dee060417966374a279ab",
+            "name": "Event Notification Message",
+            "url": "test-api.adp.com\/core\/v1\/event-notification-messages\/{adp-msg-msgid}",
+            "description": "Delete the event notification message once the consumer has processed it successfully. The DELETE Acknowledges successful receipt and processing of the request.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "adp-msg-msgid",
+                    "description": "adp-msg-msgid' is passed in the header with the response from the GET request.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "6add3f8a37ca32f8fdc2afdb417a5e42",
+            "rawModeData": ""
+        }
+    ]
+}
