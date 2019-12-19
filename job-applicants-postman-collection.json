@@ -1,0 +1,669 @@
+{
+    "id": "c448550af7472b140c88400f81583fe1",
+    "name": "Job Applicants",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "886c3d68aa588365a7a36bd788253bde",
+            "name": "Job Applicants",
+            "url": "test-api.adp.com\/staffing\/v2\/job-applicants",
+            "description": "Request the list of all available job applicants that the requester is authorized to view",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c448550af7472b140c88400f81583fe1",
+            "rawModeData": ""
+        },
+        {
+            "id": "f5736b03f5f97b8e9d7e2513dc1e2988",
+            "name": "Job Applicant",
+            "url": "test-api.adp.com\/staffing\/v2\/job-applicants\/{applicant-id}",
+            "description": "Returns a job applicant",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "applicant-id",
+                    "description": "Job Applicant ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c448550af7472b140c88400f81583fe1",
+            "rawModeData": ""
+        },
+        {
+            "id": "0e664604738d6b5df81fa14df2aa2032",
+            "name": "Job Applicant Pay Distributions",
+            "url": "test-api.adp.com\/staffing\/v2\/job-applicants\/{applicant-id}\/pay-distributions",
+            "description": "Returns a job applicant pay distribution details",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "applicant-id",
+                    "description": "Job Applicant ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c448550af7472b140c88400f81583fe1",
+            "rawModeData": ""
+        },
+        {
+            "id": "865238afc7c196addc8e1f527e5a4735",
+            "name": "Job Applicant Pay Distribution Details",
+            "url": "test-api.adp.com\/staffing\/v2\/job-applicants\/{applicant-id}\/pay-distributions\/{pay-distribution-id}",
+            "description": "Returns a job applicant pay distribution details",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "applicant-id",
+                    "description": "Job Applicant ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pay-distribution-id",
+                    "description": "Pay Distribution ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c448550af7472b140c88400f81583fe1",
+            "rawModeData": ""
+        },
+        {
+            "id": "d09a60ae70ef020ab148ba5d76198a12",
+            "name": "Job Applicant Tax Profiles",
+            "url": "test-api.adp.com\/staffing\/v2\/job-applicants\/{applicant-id}\/us-tax-profiles",
+            "description": "Returns a job applicant US  tax profiles",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "applicant-id",
+                    "description": "Job Applicant ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c448550af7472b140c88400f81583fe1",
+            "rawModeData": ""
+        },
+        {
+            "id": "f68242896420a5eec30d9be9a681e11c",
+            "name": "Job Applicant Tax Profile Details",
+            "url": "test-api.adp.com\/staffing\/v2\/job-applicants\/{applicant-id}\/us-tax-profiles\/{us-tax-profile-id}",
+            "description": "Returns a job applicant US  tax profiles",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "applicant-id",
+                    "description": "Job Applicant ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "us-tax-profile-id",
+                    "description": "US Tax Profile ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c448550af7472b140c88400f81583fe1",
+            "rawModeData": ""
+        },
+        {
+            "id": "85c10aa029044db4f08efce2dea851ca",
+            "name": "Job Applicant Personal Contacts",
+            "url": "test-api.adp.com\/staffing\/v2\/job-applicants\/{applicant-id}\/personal-contacts",
+            "description": "Returns a job applicant's personal contacts",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "applicant-id",
+                    "description": "Job Applicant ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c448550af7472b140c88400f81583fe1",
+            "rawModeData": ""
+        },
+        {
+            "id": "35cda3ad50ddc4cbb463ca7b813ab365",
+            "name": "Job Applicant Personal Contact Details",
+            "url": "test-api.adp.com\/staffing\/v2\/job-applicants\/{applicant-id}\/personal-contacts\/{personal-contact-id}",
+            "description": "Returns a job applicant's personal contacts",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "applicant-id",
+                    "description": "Job Applicant ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "personal-contact-id",
+                    "description": "Personal Contact ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c448550af7472b140c88400f81583fe1",
+            "rawModeData": ""
+        },
+        {
+            "id": "6e92db36b18625284c5419e2e9c39d38",
+            "name": "Job Applicant KSAOCs",
+            "url": "test-api.adp.com\/staffing\/v2\/job-applicants\/{applicant-id}\/applicant-ksaocs",
+            "description": "Returns a job applicant's KSAOCs",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "applicant-id",
+                    "description": "Job Applicant ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c448550af7472b140c88400f81583fe1",
+            "rawModeData": ""
+        },
+        {
+            "id": "99a71c87f66b868ff16ab63b04094a2b",
+            "name": "Job Applicant Documents",
+            "url": "test-api.adp.com\/staffing\/v2\/job-applicants\/{applicant-id}\/documents",
+            "description": "Returns applicant recruiting documents",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "applicant-id",
+                    "description": "Job Applicant ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c448550af7472b140c88400f81583fe1",
+            "rawModeData": ""
+        },
+        {
+            "id": "889994aa6627f16fffba28389c903cdd",
+            "name": "Job Applicant Document",
+            "url": "test-api.adp.com\/staffing\/v2\/job-applicants\/{applicant-id}\/documents\/{document-id}",
+            "description": "Returns applicant recruiting document",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "applicant-id",
+                    "description": "Job Applicant ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "document-id",
+                    "description": "Document ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c448550af7472b140c88400f81583fe1",
+            "rawModeData": ""
+        },
+        {
+            "id": "5aa1a0b61fd32b75b77e55e33dda539e",
+            "name": "Job Applicant Meta",
+            "url": "test-api.adp.com\/staffing\/v2\/job-applicants\/meta",
+            "description": "Returns a meta",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c448550af7472b140c88400f81583fe1",
+            "rawModeData": ""
+        },
+        {
+            "id": "57265bb8b70b0b08ae0b370f79382c51",
+            "name": "Add Applicant Profile",
+            "url": "test-api.adp.com\/events\/staffing\/v1\/job-applicant-profile.add",
+            "description": "Applicant created a new profile",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c448550af7472b140c88400f81583fe1",
+            "rawModeData": ""
+        },
+        {
+            "id": "715922d88de30fb638f64d82c924aa98",
+            "name": "Add Applicant Profile Meta",
+            "url": "test-api.adp.com\/events\/staffing\/v1\/job-applicant-profile.add\/meta",
+            "description": "Returns an event metadata",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c448550af7472b140c88400f81583fe1",
+            "rawModeData": ""
+        },
+        {
+            "id": "5923b57da667aadffedd3d83e5cd8ae6",
+            "name": "Change Applicant Profile",
+            "url": "test-api.adp.com\/events\/staffing\/v1\/job-applicant-profile.change",
+            "description": "Applicant changed an existing profile",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c448550af7472b140c88400f81583fe1",
+            "rawModeData": ""
+        },
+        {
+            "id": "f87d940a37aa0afbd789786b05017d48",
+            "name": "Change Applicant Profile Meta",
+            "url": "test-api.adp.com\/events\/staffing\/v1\/job-applicant-profile.change\/meta",
+            "description": "Returns an event metadata",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c448550af7472b140c88400f81583fe1",
+            "rawModeData": ""
+        },
+        {
+            "id": "539b4dabcc801f764549e8f763af2971",
+            "name": "Remove Applicant Profile",
+            "url": "test-api.adp.com\/events\/staffing\/v1\/job-applicant-profile.remove",
+            "description": "Applicant removed an existing profile",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c448550af7472b140c88400f81583fe1",
+            "rawModeData": ""
+        },
+        {
+            "id": "d38a5244ec3aea7a4d10f3346e3bee09",
+            "name": "Remove Applicant Profile Meta",
+            "url": "test-api.adp.com\/events\/staffing\/v1\/job-applicant-profile.remove\/meta",
+            "description": "Returns an event metadata",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c448550af7472b140c88400f81583fe1",
+            "rawModeData": ""
+        }
+    ]
+}
