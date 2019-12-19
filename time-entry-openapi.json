@@ -1,0 +1,117 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Time Entry",
+        "description": "Time Entry is the act of logging time by a worker. The Time Entry APIs support 3 types of entries: Clock, Time Entry (hours) or Time pairs. These APIs support the viewing of entries for a time period as specified by the System of Record (SOR) and may allow the creation and deletion of time entries based on rules determined by the SOR. If authorized, the APIs support the resolution of exceptions in a timesheet and the review of timesheets (i.e. approval process).",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "test-api.adp.com"
+    ],
+    "paths": {
+        "\/time\/v1\/workers\/{aoid}\/time-entry-details": {
+            "get": {
+                "summary": "Time Entry Configuration",
+                "description": "Request a time entry configuration",
+                "operationId": "2a05a6dbC03a471293d3Cab51144a5f3",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "Requests returning only the timeConfiguration object. fields=timeConfiguration"
+                    },
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "aoid",
+                        "in": "path",
+                        "description": "Associate ID"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request a time entry configuration"
+                    }
+                }
+            }
+        },
+        "\/time\/v1\/timeSheets\/review": {
+            "post": {
+                "summary": "Timesheet Review",
+                "description": "Approve 1 to many timesheets",
+                "operationId": "8f2d6cf875c642c095144f91917192cf",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request a time entry configuration"
+                    }
+                }
+            }
+        },
+        "\/time\/v1\/workers\/{aoid}\/time-entries\/{time-entry-id}": {
+            "get": {
+                "summary": "Time Entry Read",
+                "description": "Time Entry Read",
+                "operationId": "8482ea01D2bc4b449b6b46bc1a34a7ba",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "aoid",
+                        "in": "path",
+                        "description": "Associate ID"
+                    },
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "time-entry-id",
+                        "in": "path",
+                        "description": "Time Entry ID"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request a time entry configuration"
+                    }
+                }
+            }
+        },
+        "\/time\/v1\/timeSheets\/resolveEntryExceptions": {
+            "post": {
+                "summary": "Time Entry - Resolve Exception",
+                "description": "Resolve 1 to many exceptions",
+                "operationId": "96cbe3f4Dfc648ec81a92fae179b055a",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request a time entry configuration"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
