@@ -1,0 +1,16 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Payroll Outputs",
+        "description": "This API is used to convey the output of a payroll run",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "test-api.adp.com"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": []
+    }
+}
