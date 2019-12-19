@@ -1,0 +1,208 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Worker Payroll Instructions",
+        "description": "Worker payroll instructions are used to specify recurring general deductions, garnishments, and retirement plan deductions for a specified worker. The Worker Payroll Instructions v1 APIs are used to start or stop payroll instructions for a worker, or to change an instruction that was previously started.  You can also view all of the payroll instructions for a worker. API metadata is available.",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "test-api.adp.com"
+    ],
+    "paths": {
+        "\/payroll\/v1\/workers\/{aoid}\/payroll-instructions": {
+            "get": {
+                "summary": "Worker Payroll Instructions",
+                "description": "Request the list of all available payroll instructions that the requester is authorized to view",
+                "operationId": "C1de25c26bd045508f558fcc6acebc1f",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "aoid",
+                        "in": "path",
+                        "description": "Associate OID"
+                    },
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available payroll instructions that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/events\/payroll\/v2\/worker-general-deduction-instruction.start": {
+            "post": {
+                "summary": "Start Worker General Deduction Instruction",
+                "description": "Start worker general deduction instruction information",
+                "operationId": "5b9c7e7c84bd44adB38159be1e4478d8",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available payroll instructions that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/events\/payroll\/v2\/worker-general-deduction-instruction.start\/meta": {
+            "get": {
+                "summary": "Start Worker General Deduction Instruction Meta",
+                "description": "Returns an event metadata",
+                "operationId": "Ee8c918258e94bc2937b9d6796d29194",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available payroll instructions that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/events\/payroll\/v2\/worker-general-deduction-instruction.change": {
+            "post": {
+                "summary": "Change Worker General Deduction Instruction",
+                "description": "Change worker general deduction instruction information",
+                "operationId": "3fe788ed1c554813Ab945c29837d1493",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available payroll instructions that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/events\/payroll\/v2\/worker-general-deduction-instruction.change\/meta": {
+            "get": {
+                "summary": "Change Worker General Deduction Instruction Meta",
+                "description": "Returns an event metadata",
+                "operationId": "Cb8a054d9cf94a10Bc4664600d8b8971",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available payroll instructions that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/events\/payroll\/v2\/worker-general-deduction-instruction.stop": {
+            "post": {
+                "summary": "Stop Worker General Deduction Instruction",
+                "description": "Stop worker general deduction instruction information",
+                "operationId": "6842e57485a64cbc9fba9cfcca7eb8a8",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available payroll instructions that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/events\/payroll\/v2\/worker-general-deduction-instruction.stop\/meta": {
+            "get": {
+                "summary": "Stop Worker General Deduction Instruction Meta",
+                "description": "Returns an event metadata",
+                "operationId": "De98161b7e2a4aceAf562372f91c4935",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available payroll instructions that the requester is authorized to view"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "https:\/\/s3.amazonaws.com\/es-schema-dev-portal-iat\/schema\/events_payroll.worker.benefitInstruction.change_schema_v01_00_rev002.json": {
+                "type": "object"
+            },
+            "https:\/\/s3.amazonaws.com\/es-schema-dev-portal-iat\/schema\/events_payroll.worker.generalDeductionInstruction.start.review_schema_v02_00_rev001.json": {
+                "type": "object"
+            },
+            "https:\/\/s3.amazonaws.com\/es-schema-dev-portal-iat\/schema\/events_payroll.worker.benefitInstruction.start_schema_v01_00_rev002.json": {
+                "type": "object"
+            },
+            "https:\/\/s3.amazonaws.com\/es-schema-dev-portal-iat\/schema\/events_payroll.worker.benefitInstruction.stop_schema_v01_00_rev002.json": {
+                "type": "object"
+            },
+            "https:\/\/s3.amazonaws.com\/es-schema-dev-portal-iat\/schema\/events_payroll.worker.generalDeductionInstruction.start_schema_v02_00_rev001.json": {
+                "type": "object"
+            },
+            "https:\/\/s3.amazonaws.com\/es-schema-dev-portal-iat\/schema\/events_payroll.worker.garnishmentInstruction.change_schema_v01_00_rev003.json": {
+                "type": "object"
+            },
+            "https:\/\/s3.amazonaws.com\/es-schema-dev-portal-iat\/schema\/events_payroll.worker.retirementPlanInstruction.start_schema_v01_00_rev001.json": {
+                "type": "object"
+            },
+            "https:\/\/s3.amazonaws.com\/es-schema-dev-portal-iat\/schema\/events_payroll.worker.generalDeductionInstruction.change_schema_v02_00_rev001.json": {
+                "type": "object"
+            },
+            "https:\/\/s3.amazonaws.com\/es-schema-dev-portal-iat\/schema\/events_payroll.worker.garnishmentInstruction.start_schema_v01_00_rev001.json": {
+                "type": "object"
+            },
+            "https:\/\/s3.amazonaws.com\/es-schema-dev-portal-iat\/schema\/events_payroll.worker.garnishmentInstruction.stop_schema_v01_00_rev002.json": {
+                "type": "object"
+            },
+            "https:\/\/s3.amazonaws.com\/es-schema-dev-portal-iat\/schema\/events_payroll.worker.retirementPlanInstruction.change_schema_v01_00_rev001.json": {
+                "type": "object"
+            },
+            "https:\/\/s3.amazonaws.com\/es-schema-dev-portal-iat\/schema\/events_payroll.worker.retirementPlanInstruction.stop_schema_v01_00_rev001.json": {
+                "type": "object"
+            },
+            "https:\/\/s3.amazonaws.com\/es-schema-dev-portal-iat\/schema\/events_payroll.worker.generalDeductionInstruction.stop_schema_v02_00_rev001.json": {
+                "type": "object"
+            },
+            "https:\/\/s3.amazonaws.com\/es-schema-dev-portal-iat\/schema\/events_payroll.worker.generalDeductionInstruction.change.review_schema_v02_00_rev001.json": {
+                "type": "object"
+            },
+            "https:\/\/s3.amazonaws.com\/es-schema-dev-portal-iat\/schema\/events_payroll.worker.generalDeductionInstruction.stop.review_schema_v02_00_rev001.json": {
+                "type": "object"
+            }
+        }
+    }
+}
