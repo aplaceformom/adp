@@ -1,0 +1,212 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "2.0.0",
+        "title": "Workers",
+        "description": "The Workers APIs support the management of workers in an organization. A worker is a person who performs duties and responsibilities for an organization. In that capacity, a worker fills one or more positions via a work assignment. For a given work assignment, a worker is related to the organization as an employee or contractor. The Workers APIs can be used to obtain a list of all workers in an organization and to get information about work assignments.",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "test-api.adp.com"
+    ],
+    "paths": {
+        "\/hr\/v2\/workers": {
+            "get": {
+                "summary": "Workers",
+                "description": "Request the list of all available workers that the requester is authorized to view",
+                "operationId": "2aa329399059418787850eb593ece43b",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available workers that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/hr\/v2\/workers\/{aoid}": {
+            "get": {
+                "summary": "Worker",
+                "description": "Returns a worker",
+                "operationId": "6501f53d1c154ea9902c52a49970e0d9",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "aoid",
+                        "in": "path",
+                        "description": "Associate OID"
+                    },
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available workers that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/hr\/v2\/workers\/meta": {
+            "get": {
+                "summary": "Worker Meta",
+                "description": "Returns a meta",
+                "operationId": "Ff6cbf8fDd8b4d2280861caa805fe384",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available workers that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/hr\/v2\/workers\/{aoid}\/meta": {
+            "get": {
+                "summary": "Specific Worker Meta",
+                "description": "Returns a worker specific meta",
+                "operationId": "52910e8818054a759165513a9fd12d09",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "aoid",
+                        "in": "path",
+                        "description": "Associate OID"
+                    },
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available workers that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/hr\/v2\/workers\/{aoid}\/worker-data-image": {
+            "get": {
+                "summary": "Worker Data Image",
+                "description": "Returns a worker data image",
+                "operationId": "6880a36430cb4a8b9e5183d1c1c90fe2",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "aoid",
+                        "in": "path",
+                        "description": "Associate OID"
+                    },
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available workers that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/static-content\/{sor-id}\/hr\/associates\/{aoid}\/photos\/{photo-id}": {
+            "get": {
+                "summary": "Worker Photo",
+                "description": "Request a photo",
+                "operationId": "5bb57569700d463eA768A2bbcc2ad330",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "sor-id",
+                        "in": "path",
+                        "description": "System of Record ID"
+                    },
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "aoid",
+                        "in": "path",
+                        "description": "Associate OID"
+                    },
+                    {
+                        "name": "photo-id",
+                        "in": "path",
+                        "description": "Associate Photo ID"
+                    },
+                    {
+                        "name": "ADP-Acting-SessionID",
+                        "in": "query",
+                        "description": "ADP Acting Session ID"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available workers that the requester is authorized to view"
+                    }
+                }
+            }
+        },
+        "\/staticContent\/{sor-id}\/hr\/associates\/{aoid}\/photos\/{photo-id}": {
+            "get": {
+                "summary": "Worker Photo (Legacy)",
+                "description": "Request a photo",
+                "operationId": "24baa0612aba44d0B7b0377c522f1b5f",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "sor-id",
+                        "in": "path",
+                        "description": "System of Record ID"
+                    },
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "aoid",
+                        "in": "path",
+                        "description": "Associate OID"
+                    },
+                    {
+                        "name": "photo-id",
+                        "in": "path",
+                        "description": "Associate Photo ID"
+                    },
+                    {
+                        "name": "ADP-Acting-SessionID",
+                        "in": "query",
+                        "description": "ADP Acting Session ID"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Request the list of all available workers that the requester is authorized to view"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
