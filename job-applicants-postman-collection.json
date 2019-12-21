@@ -1,5 +1,5 @@
 {
-    "id": "b278c36236824ff5171f83ff057599e8",
+    "id": "881ba3f6d83a2b713320cbf973eff4dc",
     "name": "Job Applicants",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "73ceebfeb59cd9dd9c051c2defb22272",
+            "id": "d9d74dbf95f0427dd3e50ade5555818b",
             "name": "Job Applicants",
             "url": "test-api.adp.com\/staffing\/v2\/job-applicants",
             "description": "Request the list of all available job applicants that the requester is authorized to view",
@@ -37,11 +37,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b278c36236824ff5171f83ff057599e8",
+            "collectionId": "881ba3f6d83a2b713320cbf973eff4dc",
             "rawModeData": ""
         },
         {
-            "id": "f9bbba39f1396200cbbd02ba93a6310b",
+            "id": "f6fbd66e30a789a9caded741d31d5b22",
             "name": "Job Applicant",
             "url": "test-api.adp.com\/staffing\/v2\/job-applicants\/{applicant-id}",
             "description": "Returns a job applicant",
@@ -75,11 +75,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b278c36236824ff5171f83ff057599e8",
+            "collectionId": "881ba3f6d83a2b713320cbf973eff4dc",
             "rawModeData": ""
         },
         {
-            "id": "f38197cd9ad7d2ad3ccbad5c6e2a8bc1",
+            "id": "2e4855a3e16446b0efffffe9cc560add",
             "name": "Job Applicant Pay Distributions",
             "url": "test-api.adp.com\/staffing\/v2\/job-applicants\/{applicant-id}\/pay-distributions",
             "description": "Returns a job applicant pay distribution details",
@@ -113,11 +113,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b278c36236824ff5171f83ff057599e8",
+            "collectionId": "881ba3f6d83a2b713320cbf973eff4dc",
             "rawModeData": ""
         },
         {
-            "id": "1d538f751a0cde771c8e851a76f8a20e",
+            "id": "5c8030fe8d45a29432ac95028e8b301f",
             "name": "Job Applicant Pay Distribution Details",
             "url": "test-api.adp.com\/staffing\/v2\/job-applicants\/{applicant-id}\/pay-distributions\/{pay-distribution-id}",
             "description": "Returns a job applicant pay distribution details",
@@ -158,11 +158,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b278c36236824ff5171f83ff057599e8",
+            "collectionId": "881ba3f6d83a2b713320cbf973eff4dc",
             "rawModeData": ""
         },
         {
-            "id": "36dbeee93c6257339c2586a8d0c89015",
+            "id": "90bcfe1edf71d957440541f34a8683f9",
             "name": "Job Applicant Tax Profiles",
             "url": "test-api.adp.com\/staffing\/v2\/job-applicants\/{applicant-id}\/us-tax-profiles",
             "description": "Returns a job applicant US  tax profiles",
@@ -196,11 +196,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b278c36236824ff5171f83ff057599e8",
+            "collectionId": "881ba3f6d83a2b713320cbf973eff4dc",
             "rawModeData": ""
         },
         {
-            "id": "d92750a9224871fbf3ea4c06db9420e3",
+            "id": "faef9203496ff55546fa4949c18071c8",
             "name": "Job Applicant Tax Profile Details",
             "url": "test-api.adp.com\/staffing\/v2\/job-applicants\/{applicant-id}\/us-tax-profiles\/{us-tax-profile-id}",
             "description": "Returns a job applicant US  tax profiles",
@@ -241,11 +241,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b278c36236824ff5171f83ff057599e8",
+            "collectionId": "881ba3f6d83a2b713320cbf973eff4dc",
             "rawModeData": ""
         },
         {
-            "id": "6b2c22d33b121ff8902314ce9bac1a8c",
+            "id": "9dcf02ef16ff420e86f910bd4edd9335",
             "name": "Job Applicant Personal Contacts",
             "url": "test-api.adp.com\/staffing\/v2\/job-applicants\/{applicant-id}\/personal-contacts",
             "description": "Returns a job applicant's personal contacts",
@@ -279,11 +279,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b278c36236824ff5171f83ff057599e8",
+            "collectionId": "881ba3f6d83a2b713320cbf973eff4dc",
             "rawModeData": ""
         },
         {
-            "id": "41607e1fe9bb21266165b394379babd2",
+            "id": "d22462c0aa9e47eb85b1284f8783fbb8",
             "name": "Job Applicant Personal Contact Details",
             "url": "test-api.adp.com\/staffing\/v2\/job-applicants\/{applicant-id}\/personal-contacts\/{personal-contact-id}",
             "description": "Returns a job applicant's personal contacts",
@@ -324,11 +324,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b278c36236824ff5171f83ff057599e8",
+            "collectionId": "881ba3f6d83a2b713320cbf973eff4dc",
             "rawModeData": ""
         },
         {
-            "id": "6a5a26c82542c21b622e139825abfda9",
+            "id": "f35ed4bf98fea2d4844ec8acc0edae6a",
             "name": "Job Applicant KSAOCs",
             "url": "test-api.adp.com\/staffing\/v2\/job-applicants\/{applicant-id}\/applicant-ksaocs",
             "description": "Returns a job applicant's KSAOCs",
@@ -362,11 +362,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b278c36236824ff5171f83ff057599e8",
+            "collectionId": "881ba3f6d83a2b713320cbf973eff4dc",
             "rawModeData": ""
         },
         {
-            "id": "387163320b8b4c718dcbc63cd55777b9",
+            "id": "e8f9dc03801bca6eb4c2b98aec8da296",
             "name": "Job Applicant Documents",
             "url": "test-api.adp.com\/staffing\/v2\/job-applicants\/{applicant-id}\/documents",
             "description": "Returns applicant recruiting documents",
@@ -400,11 +400,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b278c36236824ff5171f83ff057599e8",
+            "collectionId": "881ba3f6d83a2b713320cbf973eff4dc",
             "rawModeData": ""
         },
         {
-            "id": "2a3a723e48ee386902e83786fe7acaa8",
+            "id": "6d1720c773fe9c78c2f96589a689ea5f",
             "name": "Job Applicant Document",
             "url": "test-api.adp.com\/staffing\/v2\/job-applicants\/{applicant-id}\/documents\/{document-id}",
             "description": "Returns applicant recruiting document",
@@ -445,11 +445,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b278c36236824ff5171f83ff057599e8",
+            "collectionId": "881ba3f6d83a2b713320cbf973eff4dc",
             "rawModeData": ""
         },
         {
-            "id": "e3ebeecac8690d920753b2197a0175cb",
+            "id": "cf10c92fb20207089c82e03475b18095",
             "name": "Job Applicant Meta",
             "url": "test-api.adp.com\/staffing\/v2\/job-applicants\/meta",
             "description": "Returns a meta",
@@ -476,11 +476,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b278c36236824ff5171f83ff057599e8",
+            "collectionId": "881ba3f6d83a2b713320cbf973eff4dc",
             "rawModeData": ""
         },
         {
-            "id": "fa018f681ac6ef293bd45154a9900506",
+            "id": "bba0357a8cf586ec5a28355bcde4e39b",
             "name": "Add Applicant Profile",
             "url": "test-api.adp.com\/events\/staffing\/v1\/job-applicant-profile.add",
             "description": "Applicant created a new profile",
@@ -507,11 +507,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b278c36236824ff5171f83ff057599e8",
+            "collectionId": "881ba3f6d83a2b713320cbf973eff4dc",
             "rawModeData": ""
         },
         {
-            "id": "fcb09288ab8bfdd6f519fd8b60aee2f5",
+            "id": "2d3b9d3753be954601922866f9f2e463",
             "name": "Add Applicant Profile Meta",
             "url": "test-api.adp.com\/events\/staffing\/v1\/job-applicant-profile.add\/meta",
             "description": "Returns an event metadata",
@@ -538,11 +538,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b278c36236824ff5171f83ff057599e8",
+            "collectionId": "881ba3f6d83a2b713320cbf973eff4dc",
             "rawModeData": ""
         },
         {
-            "id": "af5ebd8eca38f5a0de3ccc6607bea1d6",
+            "id": "9d26b1c52fd6f46105a7548de8da2e2d",
             "name": "Change Applicant Profile",
             "url": "test-api.adp.com\/events\/staffing\/v1\/job-applicant-profile.change",
             "description": "Applicant changed an existing profile",
@@ -569,11 +569,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b278c36236824ff5171f83ff057599e8",
+            "collectionId": "881ba3f6d83a2b713320cbf973eff4dc",
             "rawModeData": ""
         },
         {
-            "id": "f14171595528135b3de85a57f5d47a65",
+            "id": "ebcd9bdf34e5f106109c6c13b3b6a81d",
             "name": "Change Applicant Profile Meta",
             "url": "test-api.adp.com\/events\/staffing\/v1\/job-applicant-profile.change\/meta",
             "description": "Returns an event metadata",
@@ -600,11 +600,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b278c36236824ff5171f83ff057599e8",
+            "collectionId": "881ba3f6d83a2b713320cbf973eff4dc",
             "rawModeData": ""
         },
         {
-            "id": "fb1a12c6e1ed8e2dfe18d454d3f3f422",
+            "id": "1d5044a714a7669f532db1753d640b9e",
             "name": "Remove Applicant Profile",
             "url": "test-api.adp.com\/events\/staffing\/v1\/job-applicant-profile.remove",
             "description": "Applicant removed an existing profile",
@@ -631,11 +631,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b278c36236824ff5171f83ff057599e8",
+            "collectionId": "881ba3f6d83a2b713320cbf973eff4dc",
             "rawModeData": ""
         },
         {
-            "id": "a1cc6c3403bcbfa8c1b15d5678f18f05",
+            "id": "239343e3f09e8a197e87a3b8c0e37e2c",
             "name": "Remove Applicant Profile Meta",
             "url": "test-api.adp.com\/events\/staffing\/v1\/job-applicant-profile.remove\/meta",
             "description": "Returns an event metadata",
@@ -662,7 +662,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b278c36236824ff5171f83ff057599e8",
+            "collectionId": "881ba3f6d83a2b713320cbf973eff4dc",
             "rawModeData": ""
         }
     ]
