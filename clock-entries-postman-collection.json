@@ -1,5 +1,5 @@
 {
-    "id": "1a8e2e38ee4a44651e94e18bd0347c67",
+    "id": "e0e69f88158068b3824b5a7e23b2d5f5",
     "name": "Clock Entries",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "a37a886479ffbe48c838ec127499422e",
+            "id": "f4b6b9bd12ebc93421614e5889331241",
             "name": "Clock Entries",
             "url": "test-api.adp.com\/time\/v2\/workers\/{aoid}\/clock-entries",
             "description": "Returns the list of clock entries for a worker",
@@ -44,11 +44,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1a8e2e38ee4a44651e94e18bd0347c67",
+            "collectionId": "e0e69f88158068b3824b5a7e23b2d5f5",
             "rawModeData": ""
         },
         {
-            "id": "38c5337c02d97b6732438299473c6560",
+            "id": "73dc43b04684cf126e548e80b374a0fb",
             "name": "Clock Punch",
             "url": "test-api.adp.com\/events\/time\/v1\/clock.punch",
             "description": "Clock punch event instance",
@@ -75,11 +75,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1a8e2e38ee4a44651e94e18bd0347c67",
+            "collectionId": "e0e69f88158068b3824b5a7e23b2d5f5",
             "rawModeData": ""
         },
         {
-            "id": "596e61b2fc0f9e0932bab17100ec94be",
+            "id": "0f0c8efe6c464a22f2231fb8fd54dbaf",
             "name": "Clock Punch Meta",
             "url": "test-api.adp.com\/events\/time\/v1\/clock.punch\/meta",
             "description": "Retrieve event metadata",
@@ -106,11 +106,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1a8e2e38ee4a44651e94e18bd0347c67",
+            "collectionId": "e0e69f88158068b3824b5a7e23b2d5f5",
             "rawModeData": ""
         },
         {
-            "id": "e5ed9095c07b2ca89ca3e91ee8d126fd",
+            "id": "97fece23750cbfbf7fb424095973bfb1",
             "name": "Clock Punch Offline",
             "url": "test-api.adp.com\/events\/time\/v1\/clock-offline.punch",
             "description": "Clock punch event instance",
@@ -137,11 +137,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1a8e2e38ee4a44651e94e18bd0347c67",
+            "collectionId": "e0e69f88158068b3824b5a7e23b2d5f5",
             "rawModeData": ""
         },
         {
-            "id": "691a4c3fbba6659f8e0c0f2a7e5f59ac",
+            "id": "883804df8678620677033676b8b35f28",
             "name": "Clock Punch Offline Meta",
             "url": "test-api.adp.com\/events\/time\/v1\/clock-offline.punch\/meta",
             "description": "Retrieve event metadata",
@@ -168,11 +168,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1a8e2e38ee4a44651e94e18bd0347c67",
+            "collectionId": "e0e69f88158068b3824b5a7e23b2d5f5",
             "rawModeData": ""
         },
         {
-            "id": "38d948b8dd72e7d5592307509f25258e",
+            "id": "45c23511f22c615ebef4ad948df64225",
             "name": "Crew Clock Punch",
             "url": "test-api.adp.com\/events\/time\/v1\/crew-clock.punch",
             "description": "Crew clock punch event instance",
@@ -199,11 +199,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1a8e2e38ee4a44651e94e18bd0347c67",
+            "collectionId": "e0e69f88158068b3824b5a7e23b2d5f5",
             "rawModeData": ""
         },
         {
-            "id": "81f71aa97a41c2fdf0533575defe89ab",
+            "id": "16b43e2e0db2adfb7a947c26cfc718e4",
             "name": "Crew Clock Punch Meta",
             "url": "test-api.adp.com\/events\/time\/v1\/crew-clock.punch\/meta",
             "description": "Retrieve event metadata",
@@ -230,7 +230,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1a8e2e38ee4a44651e94e18bd0347c67",
+            "collectionId": "e0e69f88158068b3824b5a7e23b2d5f5",
             "rawModeData": ""
         }
     ]
