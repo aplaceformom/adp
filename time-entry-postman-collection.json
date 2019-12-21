@@ -1,5 +1,5 @@
 {
-    "id": "1624626662d759ec6f4f14bc6a8d9e2a",
+    "id": "58f7c0ea85248d7bddc76a520585f322",
     "name": "Time Entry",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "53294312bc5b85d59cd88acbb7b785e7",
+            "id": "c065b3b8bdbe825b208b4d4f45546418",
             "name": "Time Entry Configuration",
             "url": "test-api.adp.com\/time\/v1\/workers\/{aoid}\/time-entry-details",
             "description": "Request a time entry configuration",
@@ -51,11 +51,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1624626662d759ec6f4f14bc6a8d9e2a",
+            "collectionId": "58f7c0ea85248d7bddc76a520585f322",
             "rawModeData": ""
         },
         {
-            "id": "b55f01534eb6f0054ea07f2aa523a11a",
+            "id": "eb1494c4235a8a5d3fbf34672193f7e2",
             "name": "Timesheet Review",
             "url": "test-api.adp.com\/time\/v1\/timeSheets\/review",
             "description": "Approve 1 to many timesheets",
@@ -82,11 +82,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1624626662d759ec6f4f14bc6a8d9e2a",
+            "collectionId": "58f7c0ea85248d7bddc76a520585f322",
             "rawModeData": ""
         },
         {
-            "id": "89b2f82478b43efc125e907bc6bfe15d",
+            "id": "72fd0896ac74d8c8760dd84390143bf2",
             "name": "Time Entry Read",
             "url": "test-api.adp.com\/time\/v1\/workers\/{aoid}\/time-entries\/{time-entry-id}",
             "description": "Time Entry Read",
@@ -127,11 +127,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1624626662d759ec6f4f14bc6a8d9e2a",
+            "collectionId": "58f7c0ea85248d7bddc76a520585f322",
             "rawModeData": ""
         },
         {
-            "id": "733316a4a49196a651d764b78a4c3a35",
+            "id": "ac781fbae7600a598149bb6de80c8ff6",
             "name": "Time Entry - Resolve Exception",
             "url": "test-api.adp.com\/time\/v1\/timeSheets\/resolveEntryExceptions",
             "description": "Resolve 1 to many exceptions",
@@ -158,7 +158,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1624626662d759ec6f4f14bc6a8d9e2a",
+            "collectionId": "58f7c0ea85248d7bddc76a520585f322",
             "rawModeData": ""
         }
     ]
