@@ -1,5 +1,5 @@
 {
-    "id": "7a88f6f8ba1c2a6fa295eb67a186bdff",
+    "id": "dccd091a86938834f8b37abdcf95abef",
     "name": "Event Notification Messages",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "79c9324f15a780cb8b526bec7f37a1f0",
+            "id": "8689fdd568c7ef276a77e20e0b92151e",
             "name": "Event Notification Messages",
             "url": "test-api.adp.com\/core\/v1\/event-notification-messages",
             "description": "Request the list of all event notification messages that the request is authorized to view",
@@ -37,11 +37,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "7a88f6f8ba1c2a6fa295eb67a186bdff",
+            "collectionId": "dccd091a86938834f8b37abdcf95abef",
             "rawModeData": ""
         },
         {
-            "id": "7f921d1e0be789ba12d7f7fa0d2e53bd",
+            "id": "0ad05c7d514cede90e72c70c7f0a44b6",
             "name": "Event Notification Message",
             "url": "test-api.adp.com\/core\/v1\/event-notification-messages\/{adp-msg-msgid}",
             "description": "Delete the event notification message once the consumer has processed it successfully. The DELETE Acknowledges successful receipt and processing of the request.",
@@ -75,7 +75,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "7a88f6f8ba1c2a6fa295eb67a186bdff",
+            "collectionId": "dccd091a86938834f8b37abdcf95abef",
             "rawModeData": ""
         }
     ]
